@@ -33,5 +33,6 @@ class SLLTester {
     System.out.println("List 1 concatenated: "+ SSL1.concatenateStrings());
     SSL3.add("O");
     System.out.println("List 2 and 3 mixed: "+ SSL2.mix(SSL3));
+    System.out.println("the dupelcated: " +SSL1.removeDuplicates() +" were removed leaving "+ SSL1);
   } // end main
 } // end class
